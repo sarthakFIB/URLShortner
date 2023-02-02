@@ -8,10 +8,10 @@ app.use(express.static('static'));
 var mysql = require('mysql2');
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "parsa",
-  password: "your_password",
-  database: "db"
+  host: "sql12.freemysqlhosting.net",
+  user: "sql12595196",
+  password: "dS27pvV6Wy",
+  database: "sql12595196"
 });
 
 con.connect(function(err) {
