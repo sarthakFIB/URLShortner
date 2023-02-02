@@ -55,6 +55,8 @@ app.post('/', function (req, res) {
         if(err) throw err;
       
         console.log('Data received from Db:');
+        console.log(eq['body']['lname'])
+        console.log(eq['body']['fname'])
         if (rows.length !=0)
         {
             res.send('Already Taken')
